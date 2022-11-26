@@ -80,12 +80,15 @@ font-family: roboto, arial, sans-serif;
 h1,h2,h3,h4 {
     font-family: lato, Arial, Helvetica, sans-serif;
     letter-spacing: 0.0325rem;
+    padding: 0rem 0.5rem;
 }
 
 h1 {
     font-size: 3rem;
     letter-spacing: 0.25rem;
     transform: rotate(-5deg)
+    
+
 }
 
 .highlight {
@@ -114,6 +117,7 @@ body {
     margin: 1.5rem auto;
     width:90%;
     min-width:56.25rem;
+
 }
 
 /*Layout*/
@@ -142,6 +146,7 @@ grid-column: 2 / 3;
 grid-row: 1;
 border-left: 1px solid #F2D6BD;
 padding-left: 0.75rem;
+
 }
 
 aside p {
@@ -154,6 +159,17 @@ aside p {
     display: flex;
 }
 
+.copyright {
+    text-align: left;
+    font-size: x-small;
+}
+
+footer {
+    
+    text-align: right;
+    font-size: x-small;
+    
+}
 /* Images and Figures */
 
 img {
@@ -196,9 +212,7 @@ button {
     box-shadow: 5px 4px -1px #888;   
 }
 
-ellipse {
-    size: 1rem;
-}
+
 /* Links and Navigation */
 
 a {
@@ -218,3 +232,13 @@ nav {
     border-bottom: #A61B1B;
 }
 
+nav a:focus,nav a:hover{
+    color: #fff;
+    background-color: #33658A;
+    }
+    
+    nav a:active{
+    color: #fff;
+    background-color: black;
+    }
+    
